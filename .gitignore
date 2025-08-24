@@ -1,0 +1,12 @@
+# Node
+node_modules
+dist
+# Go
+bin
+*.log
+# OS
+.DS_Store
+# SQLite
+db/*.db
+db/*.db-journal
+.env

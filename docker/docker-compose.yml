@@ -1,0 +1,21 @@
+name: sharing_renter_system
+services:
+  backend:
+    build: ../backend
+    container_name: SharingRenterSystem-backend-dev
+    environment:
+      - PORT=8080
+      - DB_PATH=/data/app.db
+      - APP_ENV=dev
+    volumes:
+      - ../database:/data
+    ports:
+      - "8080:8080"
+  
+  frontend:
+    build: ../frontend
+    container_name: SharingRenterSystem-frontend-dev
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
