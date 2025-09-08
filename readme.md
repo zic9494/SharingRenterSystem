@@ -34,7 +34,7 @@ docker compose -f docker/docker-compose.yml up --build -d
 # -d for run at background
 ```
 
-*   **If you use WSL and have problem at CLI**
+*   **Are you use WSL and have problem at CLI？**
     ```bash
     ls -l /var/run/docker.sock || true
     readlink -f /var/run/docker.sock || true
@@ -44,6 +44,8 @@ docker compose -f docker/docker-compose.yml up --build -d
     docker info | grep -i -E 'Server Version|Docker Desktop|Context' || echo "no server"
     # Operating System: Docker Desktop
     ```
+*   **Fix the problem**
+    Open docker dosktop → setting → Resources → WSL integration → Enable integration with additional distros → Ubuntu: on
 
 ### Shutdown Service
 
