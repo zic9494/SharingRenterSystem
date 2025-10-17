@@ -195,7 +195,7 @@ func add_electric_bill(action []string, public PublicFee, users map[string]Perso
 		return public, users
 	}
 
-	Scaner.WriteString("電費計算結果如下:")
+	Scaner.WriteString("電費計算結果如下:\n")
 	Scaner.Flush()
 	all_personal_kwh := 0.0
 	for userName, userInfo := range users {

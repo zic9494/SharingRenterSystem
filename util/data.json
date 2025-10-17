@@ -1,44 +1,43 @@
 {
-    "current_period":{
-        "PUBLIC":{
-            "subsidy":0,
-            "water_fee":0,
-            "network_fee":0,
-            "gas_fee":0,
-            "public_electric_fee":0,
-            "balance":0
-        },
-        "113AB0014":{
-            "last_period_meter_read":0,
-            "personal_electric_fee":0,
-            "total_electric_fee":0,
-            "water_fee":0,
-            "network_fee":0,
-            "gas_fee":0,
-            "tenat_fee":7500,
-            "total_fee":0
-        },
-        "113AB0023":{
-            "last_period_meter_read":0,
-            "personal_electric_fee":0,
-            "total_electric_fee":0,
-            "water_fee":0,
-            "network_fee":0,
-            "gas_fee":0,
-            "tenat_fee":8500,
-            "total_fee":0
-        },
-        "113AB0051":{
-            "last_period_meter_read":0,
-            "personal_electric_fee":0,
-            "total_electric_fee":0,
-            "water_fee":0,
-            "network_fee":0,
-            "gas_fee":0,
-            "subsidy":0,
-            "tenat_fee":9000,
-            "total_fee":0
-        }
+  "current_period": {
+    "113AB0014": {
+      "last_period_meter_read": 2377,
+      "personal_electric_fee": 417.64000000000004,
+      "total_electric_fee": 531.4133333333334,
+      "water_fee": 0,
+      "network_fee": 0,
+      "gas_fee": 0,
+      "tenat_fee": 7500,
+      "total_fee": 531.4133333333334
     },
-    "record":{}
+    "113AB0023": {
+      "last_period_meter_read": 4254,
+      "personal_electric_fee": 364.64000000000004,
+      "total_electric_fee": 478.41333333333336,
+      "water_fee": 0,
+      "network_fee": 0,
+      "gas_fee": 0,
+      "tenat_fee": 8500,
+      "total_fee": 478.41333333333336
+    },
+    "113AB0051": {
+      "last_period_meter_read": 3784,
+      "personal_electric_fee": 320.12,
+      "total_electric_fee": 433.8933333333333,
+      "water_fee": 0,
+      "network_fee": 0,
+      "gas_fee": 0,
+      "tenat_fee": 9000,
+      "total_fee": 433.8933333333333
+    },
+    "PUBLIC": {
+      "subsidy": 0,
+      "water_fee": 0,
+      "public_electric_fee": 232438.91999999998,
+      "network_fee": 0,
+      "gass_fee": 0,
+      "balance": 0
+    }
+  },
+  "record": {}
 }
